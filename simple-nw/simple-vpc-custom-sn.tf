@@ -1,3 +1,7 @@
+provider "google" {
+  project = "jkumarjain-demo"
+}
+
 resource "google_compute_network" "vpc_network" {
   name                    = "jj-demo-network"
   auto_create_subnetworks = false
