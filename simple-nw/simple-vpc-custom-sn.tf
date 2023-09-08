@@ -1,5 +1,5 @@
 provider "google" {
-  project = ""
+  project = "jkumarjain-demo"
 }
 
 resource "google_compute_network" "vpc_network" {
